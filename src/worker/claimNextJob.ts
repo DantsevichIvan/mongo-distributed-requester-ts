@@ -1,4 +1,4 @@
-import { Job } from '../models/Job.js';
+import { Job } from '../models/Job';
 import { config } from '../config';
 import { JobStatus } from '../types/job';
 import { JobForProcessing } from './processJob';
