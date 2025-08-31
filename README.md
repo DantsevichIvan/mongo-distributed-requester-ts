@@ -6,18 +6,18 @@ A distributed URL processing worker system built with TypeScript and MongoDB. Pr
 
 1. Clone the repository:
 ```bash
-     git clone git@github.com:DantsevichIvan/mongo-distributed-requester-ts.git
-     cd mongo-distributed-requester-ts
+git clone git@github.com:DantsevichIvan/mongo-distributed-requester-ts.git
+cd mongo-distributed-requester-ts
 ```
 
 2. Install dependencies:
 ```bash
-   npm install
+npm install
 ```
 
 3. Set up environment variables:
 ```bash
-   cp env.example .env
+cp env.example .env
 ```
 Edit .env and provide correct values, for example:
 Environment variables (see `env.example`):
@@ -32,17 +32,17 @@ Environment variables (see `env.example`):
 
 4. Seed the database with sample URLs:
 ```bash
-   npm run seed
+npm run seed
 ```
 
 5. Start the worker
 
    For development:
 ```bash
-   npm run dev
+npm run dev
 ```
    Or run built JavaScript:
 ```bash
-   npm run build
-   npm run start:worker
+npm run build
+npm run start:worker
 ```
